@@ -1,37 +1,37 @@
 {
-	"version": "2.0.0.3",
-	"homepage": "https://pixpin.cn/",
-	"license": "Unknown",
-	"architecture": {
-		"64bit": {
-			"url": "https://download.pixpin.cn/PixPin_2.0.0.3.zip",
-			"hash": ""
-		}
-	},
-	"bin": [
-		[
-			"PixPin.exe",
-			"pixpin"
-		]
-	],
-	"shortcuts": [
-		[
-			"PixPin.exe",
-			"PixPin"
-		]
-	],
-	"checkver": {
-		"url": "https://pixpin.cn/docs/configuration/script.html",
-		"regex": "next.*/docs/official-log/(\\S+).html"
-	},
-	"autoupdate": {
-		"architecture": {
-			"64bit": {
-				"url": "https://download.pixpin.cn/PixPin_$version.zip"
-			}
-		},
-		"hash": {
-			"url": "$url.sha256"
-		}
-	}
+    "version": "2.0.0.3",
+    "homepage": "https://pixpin.cn/",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.pixpin.cn/PixPin_2.0.0.3.zip",
+            "hash": "f5058082f789bbf4adc3c6a2367a91a5afb9fc0f906f6f061a12d61aa76b9279"
+        }
+    },
+    "bin": [
+        [
+            "PixPin.exe",
+            "pixpin"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "PixPin.exe",
+            "PixPin"
+        ]
+    ],
+    "checkver": {
+        "url": "https://pixpin.cn/docs/configuration/script.html",
+        "regex": "next.*/docs/official-log/(\\S+).html"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.pixpin.cn/PixPin_$version.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
 }
