@@ -21,10 +21,16 @@
             "PixPin"
         ]
     ],
+    "persist": [
+        "Config",
+        "Data",
+        "History"
+    ],
     "checkver": {
         "url": "https://pixpin.cn/docs/configuration/script.html",
         "regex": "next.*/docs/official-log/(\\S+).html"
     },
+    "extract_dir": "PixPin",
     "autoupdate": {
         "architecture": {
             "64bit": {
