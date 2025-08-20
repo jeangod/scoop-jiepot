@@ -1,10 +1,10 @@
 {
-    "version": "1",
+    "version": "2.0.9.4",
     "description": "专业的文件下载与分享工具(BitTorrent/HTTP/FTP)",
     "homepage": "https://www.xdown.org/",
     "license": "Freeware",
-    "url": "1",
-    "hash": "1",
+    "url": "https://gh-proxy.com/raw.githubusercontent.com/xdown-dev/dl/main/dl/windows/i386/xdown-2.0.9.4.zip",
+    "hash": "50b6af71420890da1e1c185e3a6c45011e4f512696ece6523c272607d1e31b16",
     "shortcuts": [
         [
             "XDown.exe",
