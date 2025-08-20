@@ -1,0 +1,21 @@
+{
+    "version": "1",
+    "description": "专业的文件下载与分享工具(BitTorrent/HTTP/FTP)",
+    "homepage": "https://www.xdown.org/",
+    "license": "Freeware",
+    "url": "1",
+    "hash": "1",
+    "shortcuts": [
+        [
+            "XDown.exe",
+            "XDown"
+        ]
+    ],
+    "checkver": {
+        "regex": "/windows/i386/xdown-([\\d.]+).zip"
+    },
+    "extract_dir": "xdown",
+    "autoupdate": {
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/xdown-dev/dl/main/dl/windows/i386/xdown-$version.zip"
+    }
+}
