@@ -3,7 +3,7 @@
     "description": "迅雷专业破解版",
     "homepage": "https://github.com/WilsonHuangDev/Thunder-Professional/",
     "license": "BSD 3-Clause",
-    "url": "https://github.com/WilsonHuangDev/Thunder-Professional/releases/download/v2.0.2.0321/ThunderProfessional_Portable.zip",
+    "url": "https://xget.xi-xu.me/gh/WilsonHuangDev/Thunder-Professional/releases/download/v2.0.2.0321/ThunderProfessional_Portable.zip",
     "hash": "038ffb810d3c565a10d74db83d7b328d9ff1641739a8ce059a1a4104c7e345e2",
     "extract_dir": "Thunder_Professional",
     "shortcuts": [
@@ -14,7 +14,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/WilsonHuangDev/Thunder-Professional/releases/download/v$version/ThunderProfessional_Portable.zip",
+        "url": "https://xget.xi-xu.me/gh/WilsonHuangDev/Thunder-Professional/releases/download/v$version/ThunderProfessional_Portable.zip",
         "hash": {
             "url": "https://github.com/WilsonHuangDev/Thunder-Professional/releases/latest",
             "regex": "$basename[\\s\\S]*?<code>($sha256)</code>"
