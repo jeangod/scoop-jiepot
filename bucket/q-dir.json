@@ -47,7 +47,7 @@
         },
         "hash": {
             "url": "https://www.softwareok.com/?Download=Q-Dir",
-            "regex": "$basename<.*?_blank>$sha256"
+            "regex": "$basename.*?$sha256<"
         }
     }
 }
