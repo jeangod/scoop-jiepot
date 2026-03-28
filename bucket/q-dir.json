@@ -1,12 +1,12 @@
 {
-    "version": "12.51",
+    "version": "12.55",
     "description": "一款出色的 Windows 替代文件管理器",
     "homepage": "https://q-dir.com/",
     "license": "Freeware",
     "architecture": {
         "32bit": {
             "url": "https://www.softwareok.com/Download/Q-Dir_Portable.zip",
-            "hash": "0a15944b085c3dec83a0badb14512e8aa5fa0917dff23a447a3d44329e4b26da",
+            "hash": "388e2ac05b58afcb788b7b08793709c0d48250118d82c2edecdccbffbb8bd32f",
             "shortcuts": [
                 [
                     "Q-Dir.exe",
@@ -16,7 +16,7 @@
         },
         "64bit": {
             "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip",
-            "hash": "deab576bc5ac2c0b06adf80e1079d3c58a3bb7c01c40642f0e3a500647fa0143",
+            "hash": "c490e92e0a399d52a0fb51c50b9d6454add465b2b0873b1e04bb272340360ac9",
             "shortcuts": [
                 [
                     "Q-Dir_x64.exe",
