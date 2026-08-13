@@ -1,10 +1,10 @@
 {
-    "version": "3.0.8.0",
+    "version": "3.4.3.2",
     "description": "强大且免费的截图贴图工具",
     "homepage": "https://pixpin.cn/",
     "license": "Unknown",
-    "url": "https://download.pixpinapp.com/PixPin_cn_zh-cn_3.0.8.0.zip",
-    "hash": "6c9c8075e1b68c51720dcb180ff76cc0e530eff2a2b171d549a6425970125180",
+    "url": "https://download.pixpinapp.com/PixPin_win_3.4.3.2.zip",
+    "hash": "1ed2b048f7e1468cdd3dc869c3db0653d9308ffe4f48fb42091b0b559a90b211",
     "bin": [
         [
             "PixPin.exe",
@@ -24,10 +24,10 @@
     ],
     "checkver": {
         "url": "https://pixpin.cn/docs/start/what-is-pixpin.html",
-        "regex": "link\"\\shref=\"/docs/official-log/(\\S+).html"
+        "regex": "link\"\\shref=\"/docs/official-log/(\\S+)\""
     },
     "extract_dir": "PixPin",
     "autoupdate": {
-        "url": "https://download.pixpinapp.com/PixPin_cn_zh-cn_$version.zip"
+        "url": "https://download.pixpinapp.com/PixPin_win_$version.zip"
     }
 }
