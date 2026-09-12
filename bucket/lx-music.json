@@ -1,12 +1,12 @@
 {
-    "version": "2.12.2",
+    "version": "2.12.3",
     "description": "一个免费&开源的音乐查找工具",
     "homepage": "https://lxmusic.toside.cn/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.2/lx-music-desktop-v2.12.2-win_x64-green.7z",
-            "hash": "md5:bcb3d63d6bffd8f575bd14d849587b59"
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.3/lx-music-desktop-v2.12.3-win_x64-green.7z",
+            "hash": "md5:d2b168210746f7e36cb5ecd42c10ed2d"
         }
     },
     "shortcuts": [
